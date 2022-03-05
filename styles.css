@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    background-image: url("images/gif.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Righteous', cursive;
+    color: black;
+}
+
+
+.navbar {
+    background-color: black;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: rebeccapurple;
+
+}
+
+.active {
+    color: rebeccapurple;
+
+}
+
+.bg-1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(102, 51, 153, 0.4);
+}
+
+.bg-2 {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+.bg-2-inner {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+
+.pfp {
+    height: 250px;
+    opacity: 0.7;
+    border: 2px solid black;
+    transition: 0.5s
+}
+
+.pfp:hover {
+    opacity: 1
+}
+
+.bg-2 i {
+    font-size: 100px;
+    transition: 0.3s;
+}
+
+.bg-2 i:hover {
+    color: rebeccapurple;
+}
+
+.tecnologies {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.tecnologies a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.bg-3 {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    /*background-color: rgba(0,0,0,0.7);*/
+
+}
+
+.list-group{
+    list-style: none;
+}
+
+.bg-4 {
+    text-align:center;
+    padding-top: 30px;
+    background-color: black;
+    color: white;
+    padding-bottom: 30px;
+    border-top: 2px solid white;
+
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: rebeccapurple;
+    color:white;
+    transition: all .2s ease-in-out;
+}
+
+.btn:hover {
+    border: 1px solid #333;
+    background-color: white;
+    color: #000;
+}
+
+.btn-outline {
+    height: 50px;
+    width: 50px;
+    color: white;
+    line-height: 45px;
+    border: solid 2px white;
+    border-radius: 100%;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+
+}
+.btn-outline:hover {
+    color: black;
+    background: white;
+}
+
+.card {
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    opacity: 0.7;
+    background-color: rebeccapurple;
+}
+
+.owl-carousel a{
+    text-decoration: none;
+}
+
+.bg-5 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
