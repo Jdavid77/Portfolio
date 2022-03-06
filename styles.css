@@ -36,7 +36,11 @@ body {
     padding-bottom: 30px;
     text-align: center;
     font-weight: bold;
-    color: white;
+    color: black;
+    background-image: url("images/texture.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 
 }
 
@@ -59,13 +63,9 @@ body {
 
 .pfp {
     height: 350px;
-    opacity: 0.4;
     transition: 0.5s
 }
 
-.pfp:hover {
-    opacity: 1
-}
 
 .bg-2 i {
     font-size: 100px;
