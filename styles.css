@@ -36,10 +36,10 @@ body {
     padding-bottom: 30px;
     text-align: center;
     font-weight: bold;
-    font-size: 25px;
     color: white;
 
 }
+
 
 .bg-2 {
     background-color: rgba(0, 0, 0, 0.3);
@@ -58,9 +58,8 @@ body {
 }
 
 .pfp {
-    height: 250px;
-    opacity: 0.7;
-    border: 2px solid black;
+    height: 350px;
+    opacity: 0.4;
     transition: 0.5s
 }
 
@@ -146,7 +145,7 @@ body {
 }
 
 .card:hover {
-    opacity: 0.7;
+    opacity: 0.5;
     background-color: rebeccapurple;
 }
 
@@ -158,5 +157,20 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.card {
+    opacity: 0.7;
+}
+
+.initialbutton {
+    border-radius: 50px;
+}
+
+@media all and (max-width: 575px){
+    .touchbutton {
+        display: none;
+    }
 
 }

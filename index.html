@@ -33,10 +33,19 @@
         </nav>
     </header>
     <main>
-        <div class="bg-1 container-fluid" id="sec_01">
-            <h3>Hello, My name is <span class="text-dark">João David</span></h3>
-            <img class="img-fluid rounded-circle pfp" src="images/pfp.jpeg" />
-            <p style="margin-top: 10px">Less moody in real life xD</p>
+        <div class="bg-1 container" id="sec_01">
+            <div class="row">
+                <div class="col-sm-6 text-center d-flex flex-column justify-content-center greeting ">
+                    <h3 class="display-6">Hello, My name is <span class="text-dark">João David</span></h3>
+                    <p class="display-6" style="margin-top: 10px">Less moody in real life xD</p>
+                    <div class="form-group touchbutton">
+                        <a href="#sec_04"><button class="btn btn-outline-dark initialbutton shadow">Stay in Touch</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <img class="img-fluid rounded-circle pfp shadow" src="images/pfp.jpeg" />
+                </div>
+            </div>
         </div>
         <div class="bg-2 container-fluid" >
             <div class="container bg-2-inner" id="sec_02">
@@ -72,9 +81,10 @@
         </div>
         <div class="bg-5 container-fluid" id="sec_03">
             <h4 style="text-align:center;color: white; padding-bottom: 20px">Projects</h4>
+            <div class="container">
                 <div class="row g-3">
                     <div class="owl-carousel owl-theme">
-                        <a href="https://github.com/Jdavid77/CienciaVitaePlugin"><div class="card text-white bg-secondary border-light" style="max-width: 540px; min-height: 300px;">
+                        <a href="https://github.com/Jdavid77/CienciaVitaePlugin"><div class="card text-dark bg-light border-dark" style="max-width: 540px; min-height: 300px;">
                             <div class="row g-0">
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" class="img-fluid" style="height: 200px; margin-top: 20px;" alt="...">
                                     <div class="card-body">
@@ -82,7 +92,7 @@
                                     </div>
                             </div>
                         </div></a>
-                        <a href="https://github.com/Jdavid77/projeto_sds5"><div class="card text-white bg-secondary border-light" style="max-width: 540px; min-height: 300px;">
+                        <a href="https://github.com/Jdavid77/projeto_sds5"><div class="card text-dark bg-light border-dark" style="max-width: 540px; min-height: 300px;">
                             <div class="row g-0">
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="img-fluid" style="height: 200px; margin-top: 20px;" alt="...">
                                 <div class="card-body">
@@ -90,7 +100,7 @@
                                 </div>
                             </div>
                         </div></a>
-                        <a href="https://github.com/Jdavid77/aluracord-matrix"><div class="card text-white bg-secondary border-light" style="max-width: 540px; min-height: 300px;">
+                        <a href="https://github.com/Jdavid77/aluracord-matrix"><div class="card text-dark bg-light border-dark" style="max-width: 540px; min-height: 300px;">
                             <div class="row g-0">
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="img-fluid" style="height: 200px; margin-top: 20px;" alt="...">
                                 <div class="card-body">
@@ -98,7 +108,7 @@
                                 </div>
                             </div>
                         </div></a>
-                        <a href="https://github.com/Jdavid77/spring-ionic-backend"><div class="card text-white bg-secondary border-light" style="max-width: 540px; min-height: 300px;">
+                        <a href="https://github.com/Jdavid77/spring-ionic-backend"><div class="card text-dark bg-light border-dark" style="max-width: 540px; min-height: 300px;">
                             <div class="row g-0">
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" class="img-fluid" style="height: 200px; margin-top: 20px;" alt="...">
                                 <div class="card-body">
@@ -106,7 +116,7 @@
                                 </div>
                             </div>
                         </div></a>
-                        <a href="https://github.com/Jdavid77/pokeapi-demo"><div class="card text-white bg-secondary border-light" style="max-width: 540px; min-height: 300px;">
+                        <a href="https://github.com/Jdavid77/pokeapi-demo"><div class="card text-dark bg-light border-dark" style="max-width: 540px; min-height: 300px;">
                             <div class="row g-0">
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="img-fluid" style="height: 200px; margin-top: 20px;" alt="...">
                                 <div class="card-body">
@@ -114,7 +124,7 @@
                                 </div>
                             </div>
                         </div></a>
-                        <a href="https://github.com/Jdavid77/springboot_demo_webservice"><div class="card text-white bg-secondary border-light" style="max-width: 540px; min-height: 300px;">
+                        <a href="https://github.com/Jdavid77/springboot_demo_webservice"><div class="card text-dark bg-light border-dark" style="max-width: 540px; min-height: 300px;">
                             <div class="row g-0">
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" class="img-fluid" style="height: 200px; margin-top: 20px;" alt="...">
                                 <div class="card-body">
@@ -124,6 +134,7 @@
                         </div></a>
                     </div>
                 </div>
+            </div>
         </div>
         <div class="bg-3 container" id="sec_04">
             <h3 style="text-align:center; margin-bottom:10px">Contact Me!</h3>
@@ -145,9 +156,9 @@
                     <br />
                     <textarea class="form-control" id="comments" name="message" placeholder="Message" rows="5"></textarea>
                     <br />
-                    <div class="row">
+                    <div class="row text-end">
                         <div class="col-md-12 form-group">
-                            <button class="btn" type="submit">Send</button>
+                            <button class="btn shadow" type="submit">Send</button>
                         </div>
                     </div>
                     </form>
@@ -181,7 +192,7 @@
     <script>
         $('.owl-carousel').owlCarousel({
             loop:true,
-            margin:10,
+            margin:20,
             nav:true,
             responsive:{
                 0:{
