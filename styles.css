@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 body {
-    background-image: url("images/gif.gif");
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5c0abe5efcf7fd9e2db683ee/1586352753852-70PBJ610HNCAGMH9H07R/GreenBackground.jpg?format=1500w");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Righteous', cursive;
@@ -22,12 +22,12 @@ body {
 }
 
 .navbar a:hover {
-    color: rebeccapurple;
+    color: greenyellow;
 
 }
 
 .active {
-    color: rebeccapurple;
+    color: greenyellow;
 
 }
 
@@ -38,7 +38,7 @@ body {
     font-weight: bold;
     font-size: 25px;
     color: white;
-    background-color: rgba(102, 51, 153, 0.4);
+
 }
 
 .bg-2 {
@@ -54,7 +54,7 @@ body {
 .bg-2-inner {
     padding-bottom: 30px;
     margin-bottom: 30px;
-    border-bottom: 1px solid white;
+    border-bottom: 3px solid black;
 }
 
 .pfp {
@@ -74,7 +74,7 @@ body {
 }
 
 .bg-2 i:hover {
-    color: rebeccapurple;
+    color: black;
 }
 
 .tecnologies {
@@ -113,7 +113,7 @@ body {
 
 .btn {
     padding: 10px 20px;
-    background-color: rebeccapurple;
+    background-color: darkgreen;
     color:white;
     transition: all .2s ease-in-out;
 }
