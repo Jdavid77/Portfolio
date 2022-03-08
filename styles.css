@@ -44,6 +44,10 @@ body {
 
 }
 
+.card-body {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
 
 .bg-2 {
     background-color: rgba(0, 0, 0, 0.3);
@@ -64,7 +68,12 @@ body {
 
 .pfp {
     height: 350px;
-    transition: 0.5s
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5c0abe5efcf7fd9e2db683ee/1586352753852-70PBJ610HNCAGMH9H07R/GreenBackground.jpg?format=1500w");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+
+
 }
 
 
@@ -74,7 +83,7 @@ body {
 }
 
 .bg-2 i:hover {
-    color: black;
+    color: rgb(70, 69, 69);
 }
 
 .tecnologies {
@@ -159,6 +168,7 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: rgba(0, 0, 0, 0.5);
+
 
 }
 
