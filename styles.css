@@ -68,14 +68,20 @@ body {
 
 .pfp {
     height: 350px;
-    background-image: url("https://images.squarespace-cdn.com/content/v1/5c0abe5efcf7fd9e2db683ee/1586352753852-70PBJ610HNCAGMH9H07R/GreenBackground.jpg?format=1500w");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url("https://images.squarespace-cdn.com/content/v1/5c0abe5efcf7fd9e2db683ee/1586352753852-70PBJ610HNCAGMH9H07R/GreenBackground.jpg?format=1500w") no-repeat;
     border: 2px solid black;
-
-
+    transition: all 0.75s;
+    
 }
 
+.pfp:hover {
+    -webkit-box-shadow: 1px 5px 8px 12px #000000; 
+    box-shadow: 1px 5px 8px 12px #000000;
+    background: url("https://media.istockphoto.com/vectors/abstract-black-stripes-diagonal-background-vector-id1294603953?k=20&m=1294603953&s=612x612&w=0&h=KLAV73oMUFA2ucWMMTOdXT8Vn4LVUsh6NTiXRmlX5ZA=") no-repeat;
+    height: 375px;
+    cursor: pointer;
+    
+}
 
 .bg-2 i {
     font-size: 100px;
@@ -157,7 +163,7 @@ body {
 
 .card:hover {
     opacity: 0.5;
-    background-color: rebeccapurple;
+    background-color: black
 }
 
 .owl-carousel a{
@@ -176,9 +182,11 @@ body {
     opacity: 0.7;
 }
 
+
 .initialbutton {
     border-radius: 50px;
 }
+
 
 @media all and (max-width: 575px){
     .touchbutton {
