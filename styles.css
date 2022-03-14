@@ -3,7 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 body {
-    background-image: url("https://images.squarespace-cdn.com/content/v1/5c0abe5efcf7fd9e2db683ee/1586352753852-70PBJ610HNCAGMH9H07R/GreenBackground.jpg?format=1500w");
+    /*background-image: url("https://images.squarespace-cdn.com/content/v1/5c0abe5efcf7fd9e2db683ee/1586352753852-70PBJ610HNCAGMH9H07R/GreenBackground.jpg?format=1500w");*/
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p1/2451016-fundo-vermelho-abstrato-vetor.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Righteous', cursive;
@@ -22,12 +23,12 @@ body {
 }
 
 .navbar a:hover {
-    color: greenyellow;
+    color: red;
 
 }
 
 .active {
-    color: greenyellow;
+    color: red;
 
 }
 
@@ -37,7 +38,7 @@ body {
     text-align: center;
     font-weight: bold;
     color: black;
-    background-image: url("images/texture.jpeg");
+    background-image: url("images/17056590.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
@@ -68,7 +69,8 @@ body {
 
 .pfp {
     height: 350px;
-    background: url("https://images.squarespace-cdn.com/content/v1/5c0abe5efcf7fd9e2db683ee/1586352753852-70PBJ610HNCAGMH9H07R/GreenBackground.jpg?format=1500w") no-repeat;
+    /*background: url("https://images.squarespace-cdn.com/content/v1/5c0abe5efcf7fd9e2db683ee/1586352753852-70PBJ610HNCAGMH9H07R/GreenBackground.jpg?format=1500w") no-repeat;*/
+    background: url("https://static.vecteezy.com/ti/vetor-gratis/p1/2451016-fundo-vermelho-abstrato-vetor.jpg") no-repeat;
     border: 2px solid black;
     transition: all 0.75s;
     
@@ -130,7 +132,7 @@ body {
 
 .btn {
     padding: 10px 20px;
-    background-color: darkgreen;
+    background-color: black;
     color:white;
     transition: all .2s ease-in-out;
 }
