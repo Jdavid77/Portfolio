@@ -4,7 +4,7 @@
 
 body {
     /*background-image: url("https://images.squarespace-cdn.com/content/v1/5c0abe5efcf7fd9e2db683ee/1586352753852-70PBJ610HNCAGMH9H07R/GreenBackground.jpg?format=1500w");*/
-    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p1/2451016-fundo-vermelho-abstrato-vetor.jpg");
+    background-image: url("https://mrtatendazuze.com/wp-content/uploads/2020/05/dark-blue-particle-texture-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Righteous', cursive;
@@ -23,12 +23,14 @@ body {
 }
 
 .navbar a:hover {
-    color: red;
+    color: #40536b;
+    
 
 }
 
 .active {
-    color: red;
+    color: #40536b;
+    
 
 }
 
@@ -38,7 +40,7 @@ body {
     text-align: center;
     font-weight: bold;
     color: black;
-    background-image: url("images/17056590.jpeg");
+    background: url("images/wave3.svg") #03254E;
     background-size: cover;
     background-repeat: no-repeat;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
@@ -70,21 +72,12 @@ body {
 .pfp {
     height: 350px;
     /*background: url("https://images.squarespace-cdn.com/content/v1/5c0abe5efcf7fd9e2db683ee/1586352753852-70PBJ610HNCAGMH9H07R/GreenBackground.jpg?format=1500w") no-repeat;*/
-    background: url("https://static.vecteezy.com/ti/vetor-gratis/p1/2451016-fundo-vermelho-abstrato-vetor.jpg") no-repeat;
+    background: rgba(5, 25, 35,0.8);
     border: 2px solid black;
     transition: all 0.75s;
     
 }
 
-.pfp:hover {
-    -webkit-box-shadow: 1px 5px 8px 12px #000000; 
-    box-shadow: 1px 5px 8px 12px #000000;
-    background: url("https://media.istockphoto.com/vectors/abstract-black-stripes-diagonal-background-vector-id1294603953?k=20&m=1294603953&s=612x612&w=0&h=KLAV73oMUFA2ucWMMTOdXT8Vn4LVUsh6NTiXRmlX5ZA=") no-repeat;
-    height: 375px;
-    cursor: pointer;
-    
-    
-}
 
 .bg-2 i {
     font-size: 100px;
