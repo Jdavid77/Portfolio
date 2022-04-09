@@ -4,7 +4,7 @@
 
 body {
     /*background-image: url("https://images.squarespace-cdn.com/content/v1/5c0abe5efcf7fd9e2db683ee/1586352753852-70PBJ610HNCAGMH9H07R/GreenBackground.jpg?format=1500w");*/
-    background-image: url("https://mrtatendazuze.com/wp-content/uploads/2020/05/dark-blue-particle-texture-background.jpg");
+    background-image: url("images/black.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Righteous', cursive;
@@ -23,13 +23,13 @@ body {
 }
 
 .navbar a:hover {
-    color: #40536b;
+    color: #f48c06;
     
 
 }
 
 .active {
-    color: #40536b;
+    color: #f48c06;
     
 
 }
@@ -40,7 +40,7 @@ body {
     text-align: center;
     font-weight: bold;
     color: black;
-    background: url("images/wave3.svg") #03254E;
+    background:rgb(0, 0, 0, 0.7);
     background-size: cover;
     background-repeat: no-repeat;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
@@ -66,16 +66,17 @@ body {
 .bg-2-inner {
     padding-bottom: 30px;
     margin-bottom: 30px;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #f48c06;
 }
 
 .pfp {
     height: 350px;
-    /*background: url("https://images.squarespace-cdn.com/content/v1/5c0abe5efcf7fd9e2db683ee/1586352753852-70PBJ610HNCAGMH9H07R/GreenBackground.jpg?format=1500w") no-repeat;*/
-    background: rgba(5, 25, 35,0.8);
+    background: url("images/black.jpeg") no-repeat;
+    /*background: rgba(5, 25, 35,0.8);*/
     border: 2px solid black;
     transition: all 0.75s;
-    
+    -webkit-box-shadow: 0px 0px 19px -3px #FFFFFF; 
+    box-shadow: 0px 0px 19px -3px #FFFFFF;
 }
 
 
@@ -85,7 +86,7 @@ body {
 }
 
 .bg-2 i:hover {
-    color: rgb(70, 69, 69);
+    color: #f48c06;
 }
 
 .tecnologies {
@@ -128,12 +129,12 @@ body {
     background-color: black;
     color:white;
     transition: all .2s ease-in-out;
+    border: 2px solid white;
 }
 
 .btn:hover {
-    border: 1px solid #333;
-    background-color: white;
-    color: #000;
+    background-color: #f48c06;
+    color: white;
 }
 
 .btn-outline {
@@ -181,6 +182,11 @@ body {
 
 .initialbutton {
     border-radius: 50px;
+}
+
+
+.text-orange {
+    color: #f48c06
 }
 
 
