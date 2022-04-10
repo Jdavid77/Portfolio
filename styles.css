@@ -6,7 +6,12 @@
 font-size: 0.75em;
 }
 
+@media all and (max-width: 575px){
+    .touchbutton {
+        display: none;
+    }
 
+}
 
 body {
     /*background-image: url("https://images.squarespace-cdn.com/content/v1/5c0abe5efcf7fd9e2db683ee/1586352753852-70PBJ610HNCAGMH9H07R/GreenBackground.jpg?format=1500w");*/
@@ -46,10 +51,11 @@ body {
     text-align: center;
     font-weight: bold;
     color: black;
-    background:rgb(0, 0, 0, 0.6);
+    background:rgb(0, 0, 0, 0.4);
     background-size: cover;
     background-repeat: no-repeat;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    
 
 }
 
@@ -62,36 +68,42 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
     text-align: center;
-    font-size: 1.56em;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    font-size: 1.56rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     font-weight: bold;
     font-style: italic;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .bg-2-inner {
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+    
+    padding-bottom: 3rem;
     border-bottom: 3px solid #f48c06;
+}
+
+.bg-2-inner-2 {
+    padding-top: 3rem;
 }
 
 .pfp {
     height: 17.5em;
-    background: url("images/black.jpeg") no-repeat;
-    /*background: rgba(5, 25, 35,0.8);*/
+    background-color: rgb(244, 140, 6);
+    /*background: url("images/black.jpeg") no-repeat;
+    background: rgba(5, 25, 35,0.8);
     border: 2px solid black;
     transition: all 0.75s;
     -webkit-box-shadow: 0px 0px 19px -3px #FFFFFF; 
-    box-shadow: 0px 0px 19px -3px #FFFFFF;
+    box-shadow: 0px 0px 19px -3px #FFFFFF;*/
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 0px 0px 23px 12px rgba(0,0,0,0); 
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 0px 0px 23px 12px rgba(0,0,0,0);
+    
+    
 }
 
 
 .bg-2 i {
     font-size: 100px;
     transition: 0.3s;
-}
-
-.bg-2 i:hover {
     color: #f48c06;
 }
 
@@ -176,7 +188,7 @@ body {
 .bg-5 {
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(244, 140, 6, 0.8);
 
 
 }
@@ -195,12 +207,34 @@ body {
     color: #f48c06
 }
 
+.custom-card {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 1.5rem;
+    /*background-image: radial-gradient(#fff 50%, transparent 50%);*/
+    /* Spacing */
+    padding-bottom: 1rem;
+    color: white;
+    min-height: 70vh;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 0px 9px 8px #f48c06; 
+    box-shadow: 0px 10px 13px -7px #000000, 0px 0px 9px 8px #f48c06;
+    border: 5px inset black;
 
-@media all and (max-width: 575px){
-    .touchbutton {
-        display: none;
-    }
+}
 
+.custom-card__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.custom-card__inner ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 @media (min-width: 800px) {
@@ -219,4 +253,13 @@ font-size: 1em;
 .pfp {
 height: 21.875em;
 }
+
 }
+
+@media (min-width: 1500px) {
+    .custom-card {
+        min-height: 50vh;
+    }
+}
+
+
