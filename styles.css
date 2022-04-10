@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
+:root {
+font-size: 0.75em;
+}
+
+
+
 body {
     /*background-image: url("https://images.squarespace-cdn.com/content/v1/5c0abe5efcf7fd9e2db683ee/1586352753852-70PBJ610HNCAGMH9H07R/GreenBackground.jpg?format=1500w");*/
     background-image: url("images/black.jpeg");
@@ -40,7 +46,7 @@ body {
     text-align: center;
     font-weight: bold;
     color: black;
-    background:rgb(0, 0, 0, 0.7);
+    background:rgb(0, 0, 0, 0.6);
     background-size: cover;
     background-repeat: no-repeat;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
@@ -56,7 +62,7 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.56em;
     padding-top: 30px;
     padding-bottom: 30px;
     font-weight: bold;
@@ -70,7 +76,7 @@ body {
 }
 
 .pfp {
-    height: 350px;
+    height: 17.5em;
     background: url("images/black.jpeg") no-repeat;
     /*background: rgba(5, 25, 35,0.8);*/
     border: 2px solid black;
@@ -195,4 +201,22 @@ body {
         display: none;
     }
 
+}
+
+@media (min-width: 800px) {
+:root {
+font-size: 0.875em;
+}
+.pfp {
+height: 19.14em;
+}
+}
+
+@media (min-width: 1200px) {
+:root {
+font-size: 1em;
+}
+.pfp {
+height: 21.875em;
+}
 }
