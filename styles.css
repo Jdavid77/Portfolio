@@ -211,17 +211,28 @@ body {
     background: #000000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity: 0.8;
     border-radius: 1.5rem;
     /*background-image: radial-gradient(#fff 50%, transparent 50%);*/
     /* Spacing */
     padding-bottom: 1rem;
     color: white;
-    min-height: 70vh;
+    min-height: 65vh;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 0px 9px 8px #f48c06; 
     box-shadow: 0px 10px 13px -7px #000000, 0px 0px 9px 8px #f48c06;
     border: 5px inset black;
+    transform-origin: center;
+    transform: perspective(800px) rotateY(0deg);
+    transition: 0.5s all;
 
 }
+
+.custom-card:hover {
+    transform: perspective(800px) rotateY(15deg);
+    opacity: 1;
+}
+
+.custom
 
 .custom-card__inner {
     display: flex;
